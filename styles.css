@@ -1,7 +1,107 @@
+/* CSS reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Outfit', sans-serif;
+}
+
+
+/* use Flexbox or Grid layout */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .qrcode {
@@ -21,12 +121,13 @@ img {
 
 h2 {
     margin: 15px 35px;
-    font-size: 20px;
+    /* font-size: 20px; update to rem/ em  */
+    font-size: 1.25rem;
     color: hsl(218, 44%, 22%);
 }
 
 p {
     margin: 5px 37px;
-    font-size: 15px;
+    font-size: 1rem;
     color: hsl(220, 15%, 55%);
 }
